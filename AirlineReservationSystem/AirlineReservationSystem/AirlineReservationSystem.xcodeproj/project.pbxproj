@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD1161F2108E22A0044A3C0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1161E2108E22A0044A3C0 /* main.swift */; };
+		9BD116262108E25D0044A3C0 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD116252108E25D0044A3C0 /* Reservation.swift */; };
+		9BD116282108E2830044A3C0 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD116272108E2830044A3C0 /* Passenger.swift */; };
+		9BD1163F2108EDBE0044A3C0 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1163E2108EDBE0044A3C0 /* Protocol.swift */; };
+		9BD116432109070A0044A3C0 /* Airlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD116422109070A0044A3C0 /* Airlines.swift */; };
+		9BD116452109076E0044A3C0 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD116442109076E0044A3C0 /* Employee.swift */; };
+		9BD116472109078B0044A3C0 /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD116462109078B0044A3C0 /* Enumeration.swift */; };
+		9BD116492109082B0044A3C0 /* PlaneType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD116482109082B0044A3C0 /* PlaneType.swift */; };
+		9BD1164B21090AA60044A3C0 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1164A21090AA60044A3C0 /* Flight.swift */; };
+		9BD1164D21090AC20044A3C0 /* AirlinesEnquiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1164C21090AC20044A3C0 /* AirlinesEnquiry.swift */; };
+		9BD1164F21090D4C0044A3C0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD1164E21090D4C0044A3C0 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BD116192108E22A0044A3C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9BD1161B2108E22A0044A3C0 /* AirlineReservationSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AirlineReservationSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD1161E2108E22A0044A3C0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BD116252108E25D0044A3C0 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		9BD116272108E2830044A3C0 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		9BD1163E2108EDBE0044A3C0 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		9BD116422109070A0044A3C0 /* Airlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airlines.swift; sourceTree = "<group>"; };
+		9BD116442109076E0044A3C0 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		9BD116462109078B0044A3C0 /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
+		9BD116482109082B0044A3C0 /* PlaneType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneType.swift; sourceTree = "<group>"; };
+		9BD1164A21090AA60044A3C0 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		9BD1164C21090AC20044A3C0 /* AirlinesEnquiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesEnquiry.swift; sourceTree = "<group>"; };
+		9BD1164E21090D4C0044A3C0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD116182108E22A0044A3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD116122108E22A0044A3C0 = {
+			isa = PBXGroup;
+			children = (
+				9BD1161D2108E22A0044A3C0 /* AirlineReservationSystem */,
+				9BD1161C2108E22A0044A3C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD1161C2108E22A0044A3C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1161B2108E22A0044A3C0 /* AirlineReservationSystem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD1161D2108E22A0044A3C0 /* AirlineReservationSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9BD1161E2108E22A0044A3C0 /* main.swift */,
+				9BD116252108E25D0044A3C0 /* Reservation.swift */,
+				9BD116272108E2830044A3C0 /* Passenger.swift */,
+				9BD1163E2108EDBE0044A3C0 /* Protocol.swift */,
+				9BD116422109070A0044A3C0 /* Airlines.swift */,
+				9BD116442109076E0044A3C0 /* Employee.swift */,
+				9BD116462109078B0044A3C0 /* Enumeration.swift */,
+				9BD116482109082B0044A3C0 /* PlaneType.swift */,
+				9BD1164A21090AA60044A3C0 /* Flight.swift */,
+				9BD1164C21090AC20044A3C0 /* AirlinesEnquiry.swift */,
+				9BD1164E21090D4C0044A3C0 /* Extension.swift */,
+			);
+			path = AirlineReservationSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD1161A2108E22A0044A3C0 /* AirlineReservationSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD116222108E22A0044A3C0 /* Build configuration list for PBXNativeTarget "AirlineReservationSystem" */;
+			buildPhases = (
+				9BD116172108E22A0044A3C0 /* Sources */,
+				9BD116182108E22A0044A3C0 /* Frameworks */,
+				9BD116192108E22A0044A3C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirlineReservationSystem;
+			productName = AirlineReservationSystem;
+			productReference = 9BD1161B2108E22A0044A3C0 /* AirlineReservationSystem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD116132108E22A0044A3C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9BD1161A2108E22A0044A3C0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 9BD116162108E22A0044A3C0 /* Build configuration list for PBXProject "AirlineReservationSystem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BD116122108E22A0044A3C0;
+			productRefGroup = 9BD1161C2108E22A0044A3C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD1161A2108E22A0044A3C0 /* AirlineReservationSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD116172108E22A0044A3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD1164B21090AA60044A3C0 /* Flight.swift in Sources */,
+				9BD116262108E25D0044A3C0 /* Reservation.swift in Sources */,
+				9BD116452109076E0044A3C0 /* Employee.swift in Sources */,
+				9BD1161F2108E22A0044A3C0 /* main.swift in Sources */,
+				9BD1164F21090D4C0044A3C0 /* Extension.swift in Sources */,
+				9BD116432109070A0044A3C0 /* Airlines.swift in Sources */,
+				9BD116492109082B0044A3C0 /* PlaneType.swift in Sources */,
+				9BD116282108E2830044A3C0 /* Passenger.swift in Sources */,
+				9BD1163F2108EDBE0044A3C0 /* Protocol.swift in Sources */,
+				9BD1164D21090AC20044A3C0 /* AirlinesEnquiry.swift in Sources */,
+				9BD116472109078B0044A3C0 /* Enumeration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BD116202108E22A0044A3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BD116212108E22A0044A3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9BD116232108E22A0044A3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		9BD116242108E22A0044A3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD116162108E22A0044A3C0 /* Build configuration list for PBXProject "AirlineReservationSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD116202108E22A0044A3C0 /* Debug */,
+				9BD116212108E22A0044A3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD116222108E22A0044A3C0 /* Build configuration list for PBXNativeTarget "AirlineReservationSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD116232108E22A0044A3C0 /* Debug */,
+				9BD116242108E22A0044A3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD116132108E22A0044A3C0 /* Project object */;
+}
